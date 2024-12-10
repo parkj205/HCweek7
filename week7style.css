@@ -1,0 +1,565 @@
+body{
+    background-color:#ffffff;
+text-align: center;
+height: 2750px;
+}
+
+.background {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh;
+    background-color:blue; 
+    z-index: -1000;
+  }
+
+
+  .spacer{
+    width: 200px;
+    height: 250px;
+  }
+
+
+
+.week7title{
+  margin-top: -100px;
+  margin-left: 31%;
+  position: absolute;
+}
+
+  .week71{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    animation: titleanim 1s steps(1) infinite;
+}
+
+.week71 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.week72{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    animation: titleanim2 1s steps(1) infinite;
+}
+.week72 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+@keyframes titleanim {
+    0% {
+      transform: scale(0); 
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes titleanim2 {
+    0% {
+      transform: scale(1); 
+    }
+    50% {
+        transform: scale(0);
+    }
+}
+
+
+
+
+
+
+
+  .stickfigure{
+    position: absolute;
+width: 200px;
+height: 300px;
+margin-left: 42%;
+margin-top: 200px;
+  }
+  .stickfigure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  .shirttext{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 250px;
+    margin-top: 600px;
+    margin-left: 10%;
+    color:  rgb(228, 255, 0);
+    animation: moveyeah 4s infinite;
+    animation-delay: 2s;
+  }
+
+
+
+
+  .shirt1{
+    position:absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 42%;
+    margin-top: 200px;
+    animation: shirt1anim 8s infinite;
+      }
+      .shirt1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+      }
+
+
+
+      @keyframes shirt1anim {
+        0% {
+          transform: translateX(0px); 
+        }
+        25% {
+            transform: translateX(350px);
+        }
+        50% {
+            transform: translateX(350px) translateY(350px);
+        }
+        75% {
+            transform: translateX(0px) translateY(350px);
+        }
+        100% {
+            transform: translateX(0px) translateY(0px);
+        }
+    }
+
+
+
+      .shirt2{
+        position:absolute;
+        width: 200px;
+        height: 300px;
+        margin-left: 42%;
+        margin-top: 200px;
+          }
+          .shirt2 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            animation: shirt2anim 8s infinite;
+          }
+    
+
+          @keyframes shirt2anim {
+            0% {
+              transform: translateX(350px); 
+            }
+            25% {
+                transform: translateX(350px) translateY(350px);
+            }
+            50% {
+              transform: translateX(0px) translateY(350px);
+            }
+            75% {
+              transform: translateX(0px) translateY(0px);
+            }
+            100% {
+              transform: translateX(350px); 
+            }
+        }
+  
+
+
+
+          .shirt3{
+            position:absolute;
+            width: 200px;
+            height: 300px;
+            margin-left: 42%;
+            margin-top: 200px;
+            animation: shirt3anim 8s infinite;
+              }
+              .shirt3 img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover; 
+              }
+
+
+              @keyframes shirt3anim {
+                0% {
+                  transform: translateX(350px) translateY(350px);
+                }
+                25% {
+                  transform: translateX(0px) translateY(350px);
+                }
+                50% {
+                  transform: translateX(0px) translateY(0px);
+                }
+                75% {
+                  transform: translateX(350px); 
+                }
+                100% {
+                  transform: translateX(350px) translateY(350px)
+                }
+              }
+
+
+              .shirt4{
+                position:absolute;
+                width: 200px;
+                height: 300px;
+                margin-left: 42%;
+                margin-top: 200px;
+                animation: shirt4anim 8s infinite;
+                  }
+                  .shirt4 img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover; 
+                  }
+
+
+
+              @keyframes shirt4anim {
+                0% {
+                  transform: translateX(0px) translateY(350px);
+                }
+                25% {
+                  transform: translateX(0px) translateY(0px);
+                }
+                50% {
+                  transform: translateX(350px); 
+                }
+                75% {
+                  transform: translateX(350px) translateY(350px)
+                }
+                100% {
+                  transform: translateX(0px) translateY(350px);
+                }
+              }
+
+
+              .stickdiv{
+                animation: moveyeah 4s infinite;
+                animation-delay: 1s;
+              }
+
+
+              @keyframes moveyeah {
+                0% {
+                  transform: translateY(0px);
+                }
+                25% {
+                  transform: translateY(-20px);
+                }
+                50% {
+                  transform: translatey(0px); 
+                }
+                75% {
+                  transform: translateY(-20px)
+                }
+                100% {
+                  transform: translateY(0px);
+                }
+              }
+
+              .rackdiv{
+                position: absolute;
+                margin-top: 900px;
+              }
+
+            .pants4{
+              margin-top: -405px;
+              margin-left: -530px;
+              animation: sway 4s infinite;
+            }
+
+            .pants3{
+              margin-top: -510px;
+              margin-left: -150px;
+              animation: sway 4s infinite;
+              animation-delay: .2s;
+            }
+
+            .pants2{
+              margin-top: -500px;
+              margin-left: 260px;
+              animation: sway 4s infinite;
+              animation-delay: .4s;
+            }
+
+            .pants1{
+              margin-top: -500px;
+              margin-left: 640px;
+              animation: sway 4s infinite;
+              animation-delay: .6s;
+            }
+
+            @keyframes sway {
+              0% {
+                rotate: 10deg;
+              }
+  
+              50% {
+                rotate: -10deg;
+              }
+              100% {
+                rotate: 10deg
+              }
+            }
+.rackdiv{
+  animation: racksway 4s infinite;
+}
+ @keyframes racksway {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
+
+.rackdiv2{
+  position: absolute;
+  margin-top: 1400px;
+  margin-left: 24%;
+  animation: racksway 4s infinite;
+}
+
+
+.sweater4{
+  margin-top: -405px;
+  margin-left: -530px;
+  animation: sway 4s infinite;
+}
+
+.sweater3{
+  margin-top: -510px;
+  margin-left: -150px;
+  animation: sway 4s infinite;
+  animation-delay: .2s;
+}
+
+.sweater2{
+  margin-top: -500px;
+  margin-left: 260px;
+  animation: sway 4s infinite;
+  animation-delay: .4s;
+}
+
+.sweater1{
+  margin-top: -500px;
+  margin-left: 640px;
+  animation: sway 4s infinite;
+  animation-delay: .6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.frame1{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  margin-top: 1100px;
+  margin-left: 500px;
+  animation: wind 2s infinite;
+  animation-delay: 0s;
+}
+.frame1 img{
+  width: 150%;
+  height: 150%;
+  object-fit: cover; 
+}
+
+
+
+
+.frame2{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  margin-top: 1100px;
+  margin-left: 500px;
+  animation: wind 2s infinite;
+  animation-delay: .5s;
+}
+.frame2 img{
+  width: 150%;
+  height: 150%;
+  object-fit: cover; 
+}
+
+
+
+.frame3{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  margin-top: 1100px;
+  margin-left: 500px;
+  animation: wind 2s infinite;
+  animation-delay: 1s;
+}
+.frame3 img{
+  width: 150%;
+  height: 150%;
+  object-fit: cover; 
+}
+
+
+
+
+.frame4{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  margin-top: 1100px;
+  margin-left: 500px;
+  animation: wind 2s infinite;
+  animation-delay: 1.5s;
+}
+.frame4 img{
+  width: 150%;
+  height: 150%;
+  object-fit: cover; 
+}
+
+
+@keyframes wind {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.animation{
+  animation: racksway 4s infinite;
+  animation-delay: 2s;
+}
+
+
+.text1{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  width: 250px;
+  margin-top: 1100px;
+  margin-left: 72%;
+  color:  rgb(228, 255, 0);
+  animation: racksway 4s infinite;
+  animation-delay: .5s;
+}
+
+
+
+
+
+.frame6{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  margin-top: 1550px;
+  margin-left: 800px;
+  animation: wind2 2s infinite;
+  animation-delay: 0s;
+}
+.frame6 img{
+  width: 150%;
+  height: 150%;
+  object-fit: cover; 
+}
+
+
+
+
+.frame7{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  margin-top: 1550px;
+  margin-left: 800px;
+  animation: wind2 2s infinite;
+  animation-delay: .5s;
+}
+.frame7 img{
+  width: 150%;
+  height: 150%;
+  object-fit: cover; 
+}
+
+
+
+.frame8{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  margin-top: 1550px;
+  margin-left: 800px;
+  animation: wind2 2s infinite;
+  animation-delay: 1s;
+}
+.frame8 img{
+  width: 150%;
+  height: 150%;
+  object-fit: cover; 
+}
+
+
+
+
+.frame5{
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  margin-top: 1550px;
+  margin-left: 800px;
+  animation: wind2 2s infinite;
+  animation-delay: 1.5s;
+}
+.frame5 img{
+  width: 150%;
+  height: 150%;
+  object-fit: cover; 
+}
+
+
+@keyframes wind2 {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.animation{
+  animation: racksway 4s infinite;
+  animation-delay: 2s;
+}
+
